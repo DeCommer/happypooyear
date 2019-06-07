@@ -1,0 +1,271 @@
+@media (max-width: 575.98px) { 
+
+  body > main {
+  padding: 0;
+  margin: 0;
+}
+
+body > header > div.navbar.fixed-top.navbar-dark.bg-dark.shadow-sm > div > a > h1 { 
+  font-size: 80%;
+}
+
+body > main > section img {
+  background-repeat: repeat;
+}
+
+body > main > div > nav > ul > li {
+  font-size:  50%;
+  width: 25px;
+}
+
+body > main > div > div > nav > ul > li {
+  font-size:  50%;
+  width: 25px;
+}
+
+#txtbg > h1 {
+  font-size: 2em;
+}
+
+#openModal1 > div {
+  width: 80%;
+  font-size: 85%;
+}
+
+body > div.ribbon {
+  border: 1px solid red;
+  background-color: red;
+  position: fixed;
+  box-shadow: 1px 1px 3px #000;
+  transform: rotate(35deg);
+  top: 7px;
+  right: -26px;
+  width: 175px;
+  height: 25px;
+  z-index: 100000;  
+}
+
+body > div.ribbon h6{
+  margin: 5px 0 0 60px;
+  font-weight: 100;
+  font-size: 80%;
+}
+
+body > div.ribbon h5{
+  margin: 5px 0 0 60px;
+  font-weight: 100;
+  font-size: 80%;
+}
+body > div.ribbon h4{
+  margin: 5px 0 0 60px;
+  font-weight: 100;
+  font-size: 80%;
+}
+body > div.ribbon h3{
+  margin: 5px 0 0 80px;
+  font-weight: 100;
+  font-size: 80%;
+}
+body > div.ribbon h2{
+  margin: 5px 0 0 60px;
+  font-weight: 100;
+  font-size: 80%;
+}
+body > div.ribbon h1{
+  margin: 5px 0 0 90px;
+  font-weight: 100;
+  font-size: 80%;
+}
+
+body > footer {
+  text-align: center;
+}
+
+} /* end media selectors */
+
+
+.ribbon {
+  border: 1px solid red;
+  background-color: red;
+  position: fixed;
+  box-shadow: 1px 1px 3px #000;
+  transform: rotate(35deg);
+  top: 18px;
+  right: -78px;
+  width: 275px;
+  height: 65px;
+  z-index: 100000;
+}
+
+.ribbon h6 {
+  margin: 22px 0 0 70px;
+  color: #fff;
+}
+
+.ribbon h5 {
+  margin: 22px 0 0 55px;
+  color: #fff;
+}
+.ribbon h4 {
+  margin: 22px 0 0 55px;
+  color: #fff;
+}
+.ribbon h3 {
+  margin: 22px 0 0 55px;
+  color: #fff;
+}
+.ribbon h2 {
+  margin: 22px 0 0 55px;
+  color: #fff;
+}
+.ribbon h1 {
+  margin: 10px 0 0 80px;
+  color: #fff;
+}
+
+
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+    
+  }
+
+.navbar h1 {
+  color: #ffc107;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#txtbg .btn {
+  color: floralwhite;
+}
+
+strong {
+    color: tomato;
+}
+
+strong.strongpoo {
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 3px #000000;
+}
+
+#blur {
+    -webkit-filter: blur(9px); /* Safari 6.0 - 9.0 */
+    filter: blur(9px);
+  }
+
+.page-item.active .page-link {
+  color: maroon;
+  background-color: #ffc107;
+  border-color: lightgray;
+}
+
+.page-link {
+  color: maroon;
+}
+
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(121, 66, 0);
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.726);
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+    color: rgba(255, 181, 112, 0.712);
+  }
+  footer a {
+    color: #ffc107;
+  }
+  footer a:hover {
+    color: #ffda6c;
+    text-decoration: none;
+  }
+
+  .modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    text-align: center;
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px 5px 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.closebtn {
+    background: #fff;
+    padding-top: 2px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+}
+
+li  a{
+    list-style-type: none;
+    color:tomato;
+    
+}
+li  a:hover{
+  list-style-type: none;
+  color:#fff;
+}
+
+.overlay {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgb(70, 32, 2);
+    opacity:0.9;
+    z-index:1001;
+}
+.overlay-message{
+  border: 1px soli rgb(51, 51, 51);
+  border-radius: 5px;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-left: -37.5%;
+  padding: 25px;
+  width: 75%;
+  height: auto;
+  background-color:#fff;
+  opacity:1;
+  z-index:1002;
+}
