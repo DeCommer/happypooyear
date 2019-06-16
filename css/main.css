@@ -81,6 +81,11 @@ body > footer {
   text-align: center;
 }
 
+.page-link {
+  font-size: .5em;
+  padding: 5px 0 5px 3px;
+}
+
 } /* end media selectors */
 
 
