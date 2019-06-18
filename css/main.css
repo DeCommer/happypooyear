@@ -1,4 +1,4 @@
-@media (max-width: 575.98px) { 
+@media (max-width: 767px) { 
 
   body > main {
   padding: 0;
@@ -86,8 +86,18 @@ body > footer {
   padding: 5px 0 5px 3px;
 }
 
-} /* end media selectors */
+} 
 
+
+/* end media selectors */
+
+
+.card-text {
+  border-top: 1px solid rgb(150, 99, 36, 0.4);
+  padding-top: 5px;
+  color: #fdc007;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
 
 .ribbon {
   border: 1px solid red;
@@ -128,15 +138,14 @@ body > footer {
   color: #fff;
 }
 
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
 
-  .jumbotron p:last-child {
-    margin-bottom: 0;
-  }
+.jumbotron-heading {
+  font-weight: 300;
   
-  .jumbotron-heading {
-    font-weight: 300;
-    
-  }
+}
 
 .navbar h1 {
   color: #ffc107;
@@ -149,7 +158,7 @@ body > footer {
 }
 
 strong {
-    color: tomato;
+  color: tomato;
 }
 
 strong.strongpoo {
@@ -160,8 +169,8 @@ strong.strongpoo {
 }
 
 #blur {
-    -webkit-filter: blur(9px); /* Safari 6.0 - 9.0 */
-    filter: blur(9px);
+  -webkit-filter: blur(9px); /* Safari 6.0 - 9.0 */
+  filter: blur(9px);
   }
 
 .page-item.active .page-link {
@@ -174,44 +183,43 @@ strong.strongpoo {
   color: maroon;
 }
 
-  .jumbotron .container {
-    max-width: 40rem;
-  }
+.jumbotron .container {
+  max-width: 40rem;
+}
 
-  
-  footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-color: rgb(121, 66, 0);
-    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.726);
-  }
-  
-  footer p {
-    margin-bottom: .25rem;
-    color: rgba(255, 181, 112, 0.712);
-  }
-  footer a {
-    color: #ffc107;
-  }
-  footer a:hover {
-    color: #ffda6c;
-    text-decoration: none;
-  }
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgb(121, 66, 0);
+  box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.726);
+}
 
-  .modalDialog {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.8);
-    z-index: 99999;
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
+footer p {
+  margin-bottom: .25rem;
+  color: rgba(255, 181, 112, 0.712);
+}
+footer a {
+  color: #ffc107;
+}
+footer a:hover {
+  color: #ffda6c;
+  text-decoration: none;
+}
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
 }
 
 .modalDialog:target {
@@ -220,29 +228,29 @@ strong.strongpoo {
 }
 
 .modalDialog > div {
-    text-align: center;
-    width: 400px;
-    position: relative;
-    margin: 10% auto;
-    padding: 15px 20px 5px 20px;
-    border-radius: 10px;
-    background: #fff;
+  text-align: center;
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 15px 20px 5px 20px;
+  border-radius: 10px;
+  background: #fff;
 }
 
 .closebtn {
-    background: #fff;
-    padding-top: 2px;
-    position: absolute;
-    right: 4px;
-    top: 4px;
-    height: 30px;
-    width: 30px;
-    text-decoration: none;
+  background: #fff;
+  padding-top: 2px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  height: 30px;
+  width: 30px;
+  text-decoration: none;
 }
 
 li  a{
-    list-style-type: none;
-    color:tomato;
+  list-style-type: none;
+  color:tomato;
     
 }
 li  a:hover{
@@ -251,14 +259,14 @@ li  a:hover{
 }
 
 .overlay {
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color:rgb(70, 32, 2);
-    opacity:0.9;
-    z-index:1001;
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color:rgb(70, 32, 2);
+  opacity:0.9;
+  z-index:1001;
 }
 .overlay-message{
   border: 1px soli rgb(51, 51, 51);
