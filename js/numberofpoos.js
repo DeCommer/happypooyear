@@ -1,9 +1,9 @@
-document.getElementById("numopoo").innerHTML = "147";
+document.getElementById("numopoo").innerHTML = "148";
 
 var text = ["January"];
 var counter = 0;
 var elem = document.getElementById("hpy-text-1");
-var inst = setInterval(change, 4000);
+var inst = setInterval(change, 3000);
 
 function change() {
   elem.innerHTML = text[counter];
