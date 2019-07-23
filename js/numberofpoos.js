@@ -1,4 +1,4 @@
-document.getElementById("numopoo").innerHTML = "149";
+document.getElementById("numopoo").innerHTML = "151";
 
 var text = ["January"];
 var counter = 0;
