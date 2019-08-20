@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: happypooyear.tk 
-Token: f6ad41ba773b1a761782eb5aceca74b19d7da1f87657d1d6cc61d6e795579396
