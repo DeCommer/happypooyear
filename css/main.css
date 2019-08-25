@@ -62,6 +62,15 @@ body > footer {
 .jumbotron-heading {
   font-weight: 300;
 }
+a{
+  list-style-type: none;
+  color:tomato;
+}
+
+a:hover {
+  list-style-type: none;
+  color:rgb(255, 221, 214);
+}
 
 li  a{
   list-style-type: none;
