@@ -21,7 +21,7 @@
   margin: 0;
 }
 
-body > header > div.navbar.fixed-top.navbar-dark.bg-dark.shadow-sm > div > a > h1 { 
+body > header > div.navbar.navbar-dark.bg-dark.shadow-sm > div > a > h1 { 
   font-size: 80%;
 }
 
@@ -126,7 +126,7 @@ border: 1px solid rgb(179, 179, 179);
   color: floralwhite;
 }
 
-body > header > div.navbar.fixed-top.navbar-dark.bg-dark.shadow-sm > div > button {
+body > header > div.navbar.navbar-dark.bg-dark.shadow-sm > div > button {
   outline-color: #ffc107;
 }
 
