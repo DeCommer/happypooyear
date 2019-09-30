@@ -86,6 +86,10 @@ li  a:hover{
   color:#fff;
 }
 
+.list-unstyled {
+  text-align: right;
+}
+
 .card {
 overflow: hidden;
 border: 1px solid rgb(179, 179, 179);  
